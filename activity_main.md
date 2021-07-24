@@ -67,12 +67,14 @@ android:autofillHints="no"
 추가시 해결
 
 use string resourse 경고
+
 doe/app/src/main/res/values/strings.xml에서 
 ```xml
 <string name="pw">password</string>
 ```
-형식으로 선언 후 
+형식으로 문자열을 선언한 후 
 
 ```xml
 android:hint="@string/pw"
 ```
+을 이용해 참조하면 해결된다.
