@@ -59,3 +59,20 @@ android:backgroundTint="@color/white"
 ```
 로 바꾸면 된다.
 
+Missing autofillHints 경고
+
+```
+android:autofillHints="no"
+```
+추가시 해결
+
+use string resourse 경고
+doe/app/src/main/res/values/strings.xml에서 
+```xml
+<string name="pw">password</string>
+```
+형식으로 선언 후 
+
+```xml
+android:hint="@string/pw"
+```
