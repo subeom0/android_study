@@ -50,7 +50,8 @@ android:textColor="@color/black"
 ```xml
 android:backgroundTint="@color/white"
 ```
-버튼색 변경 *xml로 정의한 커스텀버튼을 사용할 수 없다*
+버튼색 변경 
+*하지만 이렇게 해결할 경우 xml로 정의한 커스텀버튼을 사용할 수 없다*
 
 따라서 app\src\main\res\values\themes.xml에서 3번째 줄에 있는 테마를
 ```xml
